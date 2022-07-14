@@ -1,0 +1,21 @@
+_id: req_31e8099b952349808419db06ee7b6040
+type: Request
+parentId: fld_40cc3c69d8624372b95b761546905828
+modified: 1657826461283
+created: 1657825466180
+url: "{{host}}/api/pokemon"
+name: Get pokemon list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657825466180
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

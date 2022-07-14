@@ -1,0 +1,21 @@
+_id: req_3de86df2f8a2400bbbcf31abbbdf1bab
+type: Request
+parentId: fld_40cc3c69d8624372b95b761546905828
+modified: 1657829006404
+created: 1657825556909
+url: "{{host}}/api/pokemon/13"
+name: Get pokemon by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657825466130
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

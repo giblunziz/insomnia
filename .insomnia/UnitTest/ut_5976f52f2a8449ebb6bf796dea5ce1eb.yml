@@ -1,0 +1,12 @@
+_id: ut_5976f52f2a8449ebb6bf796dea5ce1eb
+type: UnitTest
+parentId: uts_85cd42935e4d485ba1aa39a7ff479fcf
+modified: 1657828895770
+created: 1657828293069
+requestId: req_bcb984f754bc49a7bf1c9df77e2797ec
+name: add Chenipan
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data)
+  expect(body.data.name).to.equal('Chenipan');

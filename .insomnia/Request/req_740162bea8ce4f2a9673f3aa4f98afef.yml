@@ -1,0 +1,32 @@
+_id: req_740162bea8ce4f2a9673f3aa4f98afef
+type: Request
+parentId: fld_40cc3c69d8624372b95b761546905828
+modified: 1657829029386
+created: 1657826965290
+url: "{{host}}/api/pokemon/13"
+name: Put pokemon
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 13,
+    		"name": "Chrysacier",
+    		"hp": 30,
+    		"cp": 7
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d19a1b3d027f4ca0a7fd563222e5d31e
+authentication: {}
+metaSortKey: -1657825528900.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

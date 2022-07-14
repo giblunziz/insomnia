@@ -1,0 +1,12 @@
+_id: ut_96091dbb4a4b44359731aa905e3bbeda
+type: UnitTest
+parentId: uts_85cd42935e4d485ba1aa39a7ff479fcf
+modified: 1657828953421
+created: 1657828272218
+requestId: req_31e8099b952349808419db06ee7b6040
+name: get list
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data)
+  expect(body.message.length).to.equal(12);

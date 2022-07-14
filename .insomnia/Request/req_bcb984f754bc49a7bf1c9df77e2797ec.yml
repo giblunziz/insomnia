@@ -1,0 +1,36 @@
+_id: req_bcb984f754bc49a7bf1c9df77e2797ec
+type: Request
+parentId: fld_40cc3c69d8624372b95b761546905828
+modified: 1657829018420
+created: 1657825591621
+url: "{{host}}/api/pokemon"
+name: Post pokemon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"hp":60,
+    	"cp":110,
+    	"name":"Chenipan",
+    	"picture":"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/085.png",
+    	"types":[
+    		"Normal",
+    		"Vol"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d19a1b3d027f4ca0a7fd563222e5d31e
+authentication: {}
+metaSortKey: -1657825591621
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

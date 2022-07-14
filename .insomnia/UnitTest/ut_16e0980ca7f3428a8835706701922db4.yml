@@ -1,0 +1,12 @@
+_id: ut_16e0980ca7f3428a8835706701922db4
+type: UnitTest
+parentId: uts_85cd42935e4d485ba1aa39a7ff479fcf
+modified: 1657828944333
+created: 1657828489227
+requestId: req_740162bea8ce4f2a9673f3aa4f98afef
+name: update
+code: |
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
+  const body = JSON.parse(response1.data)
+  expect(body.data.name).to.equal('Chrysacier');
